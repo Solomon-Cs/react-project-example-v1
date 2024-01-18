@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    border-bottom: 1px solid #fdfdfd;
+}
+.task_form_input{
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #9eb8e1;
+    font-size: 20px;
+    font-weight: 500px;
+    background-color: #f9f9f9;
+    color: #000;
+}
+.task_form_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task_status{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    padding: 0 5px;
+}
+.submit_btn{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #9eb8e1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 13px;
+    margin-left: 10px;
+    height: 30px;
+    cursor: pointer;
+
+}
+

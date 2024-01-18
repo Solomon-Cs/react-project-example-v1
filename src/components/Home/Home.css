@@ -1,0 +1,9 @@
+.home_container1 {
+    display: flex;
+    justify-content: center;
+}
+.home_container2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}

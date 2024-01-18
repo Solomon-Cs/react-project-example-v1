@@ -1,0 +1,62 @@
+.main1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    background-color: rgb(190, 187, 187);
+}
+.sub {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding: 30px;
+    border-radius: 60px;
+    background-color: white;
+}
+.images_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.container{
+    background-color: #ffff;
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 115px;
+}
+.profile {
+    margin-top: -10px;
+    height: 60px;
+    width: 115px;
+    border-radius: 120px;
+}
+
+.email{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    padding: 14px 0 0 25px;
+}
+.password{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    padding: 14px 0 0 25px;
+}
+.name,.password1{
+    padding-left: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.second-input{
+    padding: 20px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
