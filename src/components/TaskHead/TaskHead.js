@@ -2,14 +2,19 @@ import React from "react";
 import "./TaskHead.css";
 import TaskCard from "../TaskCard/TaskCard";
 
-const TaskHead = ({ taskName, iconImage }) => {
+const TaskHead = ({ title, iconImage, tasks, status ,handleDelete}) => {
   return (
     <>
       <section className="home_card">
         <h4>
-          <img src={iconImage} className="Icon_image" /> {taskName}
+          <img src={iconImage} className="Icon_image" /> {title}
         </h4>
-        <TaskCard />
+        {tasks.map(
+          (task, index) =>
+            task.status === status && (
+              <TaskCard key={index} title={task.task} tags={task.tags} handleDelete ={handleDelete} index = {index} />
+            )
+        )}
       </section>
     </>
   );
