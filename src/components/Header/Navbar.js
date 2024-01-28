@@ -35,9 +35,6 @@ render(){
                         <Link to="/Home">Home</Link>
                     </li>
                     <li>
-                        <Link to="./About">About</Link>
-                    </li>
-                    <li>
                         <Link to="/Login">Log in</Link>
                     </li>
                     <li>
